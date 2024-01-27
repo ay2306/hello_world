@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/kill', (req, res) => {
-  console.log('killing server');
+  console.log('killing server v1');
 })
   
 
