@@ -1,7 +1,7 @@
 steps:
-- name: 'Install Packages'
+- name: 'node'
   entrypoint: 'npm'
   args: ['install']
-- name: 'Running Tests'
+- name: 'node'
   entrypoint: 'npm'
   args: ['test']
