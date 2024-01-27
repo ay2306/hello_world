@@ -1,0 +1,7 @@
+steps:
+- name: 'Install Packages'
+  entrypoint: 'npm'
+  args: ['install']
+- name: 'Running Tests'
+  entrypoint: 'npm'
+  args: ['test']
